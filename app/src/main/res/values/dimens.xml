@@ -1,0 +1,29 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="toolbar_height">256dp</dimen>
+    <dimen name="toolbar_bottom_margin">48dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="activity_margin_half">4dp</dimen>
+    <dimen name="margin_half">8dp</dimen>
+    <dimen name="margin_full">20dp</dimen>
+    <dimen name="image_width">72dp</dimen>
+    <dimen name="image_height">96dp</dimen>
+    <dimen name="image_width_half">40dp</dimen>
+    <dimen name="image_height_full">200dp</dimen>
+    <dimen name="padding">5dp</dimen>
+    <dimen name="paddingTop">10dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <dimen name="btn_width">35dp</dimen>
+    <dimen name="elevation">10dp</dimen>
+    <dimen name="textsize_medium">15dp</dimen>
+    <dimen name="textsize_small">12dp</dimen>
+    <dimen name="cardview_height">210dp</dimen>
+    <dimen name="cardview_width">150dp</dimen>
+    <dimen name="cardview_height_small">130dp</dimen>
+    <dimen name="cardview_width_small">100dp</dimen>
+    <dimen name="layout_height">48dp</dimen>
+    <dimen name="send_btn_width">64dp</dimen>
+    <dimen name="send_btn_height">48dp</dimen>
+    <dimen name="send_btn_txt_size">14dp</dimen>
+    <dimen name="img_sender_width">32dp</dimen>
+</resources>

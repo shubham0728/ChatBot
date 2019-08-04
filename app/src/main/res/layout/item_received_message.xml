@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="@dimen/margin_half">
+
+    <ImageView
+        android:id="@+id/image_message_sender"
+        android:layout_width="@dimen/img_sender_width"
+        android:layout_height="@dimen/img_sender_width"
+        android:layout_marginLeft="@dimen/margin_half"
+        android:background="@drawable/ic_action_name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_sender_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="@dimen/margin_half"
+        android:text="John Doe"
+        android:textSize="12sp"
+        app:layout_constraintLeft_toRightOf="@+id/image_message_sender"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/text_message_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_half"
+        android:layout_marginTop="@dimen/activity_margin_half"
+        android:background="@drawable/received_message"
+        android:maxWidth="240dp"
+        android:padding="14dp"
+        android:textColor="@android:color/black"
+        app:layout_constraintLeft_toRightOf="@+id/image_message_sender"
+        app:layout_constraintTop_toBottomOf="@+id/text_sender_name" />
+
+    <TextView
+        android:id="@+id/text_message_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="@+id/text_message_body"
+        app:layout_constraintLeft_toRightOf="@+id/text_message_body" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

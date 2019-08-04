@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ChatBot DocsApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="api_key">6nt5d1nJHkqbkphe</string>
+    <string name="chat_bot_id">63906</string>
+    <string name="no_netowrk">No Network. Please check connection.</string>
+    <string name="error">Error : Something went wrong</string>
+    <string name="nothing">No data found</string>
+</resources>
